@@ -1,0 +1,63 @@
+/***********/
+/* =O_UVOD */
+/***********/
+
+#O_uvod_promo {height: 210px; background: url(/img/pages/O_uvod_promo.jpg) no-repeat;}
+#O_uvod_servis {position: relative;}
+ #O_uvod_servis h2.imgReplace {background-image: url(/img/pages/O_uvod_servis.jpg);}
+ #O_uvod_servis .pricelist {width: 250px;}
+ #O_uvod_servis .featured .price {font-weight: bold;}
+#O_uvod_rent {position: relative;}
+ #O_uvod_rent h2.imgReplace {background-image: url(/img/pages/O_uvod_rent.jpg);}
+
+ #O_uvod_rentAndTestcentrum, #O_pujcovna_notice {border-top: 1px dotted #4d4d4d; text-align: center;}
+#O_uvod_testcentrum {position: relative;}
+ #O_uvod_testcentrum h2.imgReplace {background-image: url(/img/pages/O_uvod_testcentrum.jpg);}
+ #O_uvod_testcentrum ul {text-align: center;}
+
+#O_uvod_servis .button, #O_uvod_rent .button, #O_uvod_testcentrum .button {position: absolute; top: 3px; right: 3px;}
+
+#O_uvod_newSki {width: 530px; height: 192px; background: url(/img/pages/OOO_newSki.jpg) no-repeat; position: relative;}
+#O_uvod_newSki a.button {position: absolute; right: 234px; bottom: 3px;}
+
+/************/
+/* =O_O-NAS */
+/************/
+
+#O_onas_kdenasnajdete h2.imgReplace {background-image: url(/img/pages/O_onas_kdenasnajdete.jpg);}
+#O_onas_fotogalerie h2.imgReplace {background-image: url(/img/pages/O_onas_fotogalerie.jpg);}
+
+
+/************/
+/* =O_SERVIS */
+/************/
+
+#O_servis_dalsiinformace h2.imgReplace {background-image: url(/img/pages/O_pujcovna_dalsiinformace.jpg);}
+
+/************/
+/* =O_PUJCOVNA */
+/************/
+
+#O_pujcovna_pujcovna h2.imgReplace {background-image: url(/img/pages/O_pujcovna_pujcovna.jpg);}
+
+/******************/
+/* =O_TESTCENTRUM */
+/******************/
+
+#O_testcentrum_testcentrum h2.imgReplace {background-image: url(/img/pages/O_testcentrum_testcentrum.jpg);}
+#O_testcentrum_seznamlyzi h2.imgReplace {background-image: url(/img/pages/O_testcentrum_seznamlyzi.jpg);}
+#testcentrumContainer {position: relative;}
+#testcentrumList {width: 400px;}
+#testcentrumList li {line-height: 22px; margin-bottom: 6px; padding-left: 10px; cursor: pointer; position: relative;}
+#testcentrumList li .size {position: absolute; right: 10px; top: 1px; font-style: italic;}
+#testcentrumList li.active {background: url(/img/pages/O_testcentrum_list.jpg) no-repeat; color: #FFFFFF;}
+#testcentrumDisplay {margin-bottom: 20px; float: right; width: 94px; border: 3px solid #938E8E; text-align: center; position: relative;}
+#testcentrumDisplay img.hide {display: none;}
+#testcentrumDisplay a.hide {display: none;}
+#testcentrumDisplay a.button {position: absolute; bottom: -15px; right: 3px;}
+
+/************/
+/* =O_ADMIN */
+/************/
+
+#O_admin_newsEdit textarea {width: 100%; height: 200px;}

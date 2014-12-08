@@ -1,0 +1,83 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "reset",
+        "layout",
+        "pages",
+        "thickbox"
+;
+
+.cleaner {clear: both;}
+.hidden {display: none;}
+.strong, strong {font-weight: bold;}
+.em, em {font-style: italic;}
+.big {font-size: 125%;}
+small {font-size: 11px;}
+.color {color: #3399FF;}
+
+p.icon {line-height: 16px;}
+p.icon img {position: relative; top: 3px;}
+hr {display: block; margin: 10px 0; height: 18px; border: 0; outline: 0; background: url(/img/content/hr.jpg) repeat-x;}
+
+.vspace {margin-top: 20px;}
+.vspace_small {margin-top: 12px;}
+.vspace_micro {margin-top: 4px;}
+
+/* Headers */
+h2.imgReplace {margin-bottom: 10px; height: 38px; line-height: 38px; text-indent: -9999px;}
+h3.imgReplace {margin-bottom: 8px; height: 33px; line-height: 33px; text-indent: -9999px;}
+h3 {margin-bottom: 10px; font-size: 16px; text-transform: uppercase; color: #E56000;}
+h4 {margin-bottom: 0px; font-size: 14px; text-transform: uppercase; color: #E56000;}
+
+h3.imgReplace.velkyKomplet {background-image: url(/img/pages/OOO_velkyKomplet.jpg);}
+h3.imgReplace.malyKomplet {background-image: url(/img/pages/OOO_malyKomplet.jpg);}
+h3.imgReplace.velkyServis {background-image: url(/img/pages/OOO_velkyServis.jpg);}
+h3.imgReplace.malyServis {background-image: url(/img/pages/OOO_malyServis.jpg);}
+h3.imgReplace.cenik {background-image: url(/img/pages/OOO_cenik.jpg);}
+h3.imgReplace.podminky {background-image: url(/img/pages/OOO_podminky.jpg);}
+h3.imgReplace.dalsiinformace {background-image: url(/img/pages/OOO_dalsiinformace.jpg);}
+h3.imgReplace.procservis {background-image: url(/img/pages/OOO_procservis.jpg);}
+h3.imgReplace.komplet {background-image: url(/img/pages/OOO_komplet.jpg);}
+h3.imgReplace.jednotlive {background-image: url(/img/pages/OOO_jednotlive.jpg);}
+
+/* Buttons */
+/***********/
+.button {display: block; width: 71px; height: 30px; line-height: 30px; text-indent: -9999px; background: url(/img/content/buttons.png) no-repeat 0px 0px; border: 0px none;} .button:hover {background-position: 0px -30px;}
+.button.moreInfo {width: 109px; background-position: 0px -60px;} .button.moreInfo:hover {background-position: 0px -90px;}
+.button.moreInfoAndCompletePricelist {width: 218px; background-position: 0px -120px;} .button.moreInfoAndCompletePricelist:hover {background-position: 0px -150px;}
+.button.show {width: 74px; background-position: 0px -180px;} .button.show:hover {background-position: 0px -210px;}
+.button.facebook {width: 165px; background-position: 0px -240px;} .button.facebook:hover {background-position: 0px -270px;}
+
+/* Lists */
+/*********/
+ul, ol {margin: 0; padding: 0;}
+ul.bullet {list-style: disc outside; padding-left: 12px;}
+ul.simple {margin: 0; padding: 0; list-style: none;}
+ul.icon li {line-height: 16px; margin-bottom: 4px; padding-left: 22px; background-repeat: no-repeat; background-position: left center;}
+ul.icon li.id {background-image: url(/img/content/icon_id.png);}
+ul.icon li.money {background-image: url(/img/content/icon_money.png);}
+ul.link li {line-height: 24px; padding-left: 22px; background: url(/img/content/ul_link.png) no-repeat left center;}
+ul.advantage li {line-height: 30px; padding-left: 34px; background: url(/img/content/ul_advantage.png) no-repeat left center;}
+ul.advantage li+li {margin-left: 6px;} ul.advantage li+li+li {margin-left: 12px;} ul.advantage li+li+li+li {margin-left: 18px;} ul.advantage li+li+li+li+li {margin-left: 24px;} ul.advantage li+li+li+li+li+li {margin-left: 30px;}
+
+/* Tables */
+
+table {collapse: collapse;}
+table thead {text-align: center;}
+table th, table td {border: 1px solid #63BEF2;}
+table.pricelist {width: 100%;}
+table.pricelist thead th {padding: 5px 8px; font-size: 14px; background: #B2E3FF; color: #1687D9;}
+table.pricelist tbody .product {white-space: nowrap;}
+table.pricelist tbody th, table.pricelist tbody td {padding: 4px 8px;}
+table.pricelist tbody .price {text-align: center; font-weight: bold;}
+
+/* Photogallery */
+
+.photogallery a {display: block; width: 173px; height: 120px; float: left;}
+
+
